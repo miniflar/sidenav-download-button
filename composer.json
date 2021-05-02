@@ -1,0 +1,45 @@
+{
+    "name": "miniflar/sidenav-download-button",
+    "description": "Adds a download button to the sideNav of your Flarum forum.",
+    "keywords": [
+        "flarum",
+        "sideNav",
+        "download-button",
+        "sidenav-download-button"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/miniflar/sidenav-download-button/issues",
+        "source": "https://github.com/miniflar/sidenav-download-button",
+        "forum": "https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE"
+      },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://paypal.me/ralkage"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.16"
+    },
+    "authors": [
+        {
+            "name": "Christian Lopez",
+            "email": "me@ralkage.com",
+            "homepage": "https://ralkage.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "MiniFLAR SideNav Download Button",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-download",
+                "backgroundColor": "#5e247e",
+                "color": "#eb6529"
+            }
+        }
+    }
+}
