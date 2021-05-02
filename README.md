@@ -40,13 +40,13 @@ It was developed for a client and released as open-source for the benefit of the
 
 You can [contact me](https://ralkage.com/flarum) to sponsor additional features or updates.
 
-Support is offered on a "best effort" basis through the Flarum community thread.
+Support is offered on a "best effort" basis through the [Flarum community discussion](https://discuss.flarum.org/d/27059).
 
 ### Links
 
 - [Packagist](https://packagist.org/packages/miniflar/sidenav-download-button)
 - [GitHub](https://github.com/miniflar/sidenav-download-button)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org/d/27059)
 - [Donate](https://paypal.me/ralkage) (Optional)
   - Donations allow developers such as myself to be able to purchase new learning  resources, hardware, donate to charitable organizations, or even contribute to the [Flarum Foundation](https://opencollective.com/flarum) :D
 
