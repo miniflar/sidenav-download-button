@@ -17,11 +17,11 @@ use Flarum\Settings\SettingsRepositoryInterface;
 
 return [
     (new Extend\Frontend('forum'))
-        ->js(__DIR__ . '/js/dist/forum.js')
-        ->css(__DIR__ . '/resources/less/forum.less'),
+        ->js(__DIR__.'/js/dist/forum.js')
+        ->css(__DIR__.'/resources/less/forum.less'),
     (new Extend\Frontend('admin'))
-        ->js(__DIR__ . '/js/dist/admin.js')
-        ->css(__DIR__ . '/resources/less/admin.less'),
+        ->js(__DIR__.'/js/dist/admin.js')
+        ->css(__DIR__.'/resources/less/admin.less'),
 
     (new Extend\Settings())
         ->serializeToForum(
@@ -30,7 +30,7 @@ return [
             'intval',
             0
         ),
-    new Extend\Locales(__DIR__ . '/resources/locale'),
+    new Extend\Locales(__DIR__.'/resources/locale'),
 
     (new Extend\ApiSerializer(ForumSerializer::class))
         ->attributes(function ($serializer, $attributes) {
@@ -39,6 +39,7 @@ return [
             if ($serializer->getActor()->hasPermission('miniflar-sidenav-download-button.viewDownloadButton')) {
                 $attributes['miniflar-sidenav-download-button.link'] = $settings->get('miniflar-sidenav-download-button.link');
             }
+
             return $attributes;
         }),
 ];
