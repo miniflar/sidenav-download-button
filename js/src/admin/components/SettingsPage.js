@@ -13,7 +13,6 @@ export default class SettingsPage extends ExtensionPage {
             {this.buildSettingComponent({
               type: 'number',
               setting: 'miniflar-sidenav-download-button.button_order',
-              placeholder: 'https://example.com',
             })}
             <legend>{app.translator.trans(translationPrefix + 'settings.button_link_heading')}</legend>
             <div className="helpText">{app.translator.trans(translationPrefix + 'settings.button_link_text')}</div>
