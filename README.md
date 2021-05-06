@@ -24,13 +24,13 @@ php flarum cache:clear
 <details>
 <summary>Admin Settings Page</summary>
 
-![MiniFLAR SideNav Download Button Settings](https://user-images.githubusercontent.com/2059356/116828697-4eb26b00-ab6e-11eb-87b8-9b387d99bde2.png)
+![MiniFLAR SideNav Download Button Settings](https://user-images.githubusercontent.com/2059356/117231518-56337780-aded-11eb-99a1-6a101851fd37.png)
 </details>
 
 <details>
 <summary>Forum View</summary>
 
-![MiniFLAR SideNav Download Button Forum View](https://user-images.githubusercontent.com/2059356/116827977-eb263e80-ab69-11eb-8f14-e45033555548.png)
+![MiniFLAR SideNav Download Button Forum View](https://user-images.githubusercontent.com/2059356/117231562-72cfaf80-aded-11eb-8eac-01608cf3c6d5.png)
 </details>
 
 ### Support
