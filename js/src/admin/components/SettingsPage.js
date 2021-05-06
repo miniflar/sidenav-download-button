@@ -7,19 +7,32 @@ export default class SettingsPage extends ExtensionPage {
     return [
       <div className="sideNavButtonPage container">
         <fieldset className="sideNavButtonPage fieldset">
-          <div className="sideNavButtonPage-input">
-            <legend>{app.translator.trans(translationPrefix + 'settings.button_order_heading')}</legend>
-            <div className="helpText">{app.translator.trans(translationPrefix + 'settings.button_order_text')}</div>
+          <div className="sideNavButtonPage Form-group">
             {this.buildSettingComponent({
               type: 'number',
               setting: 'miniflar-sidenav-download-button.button_order',
+              label: app.translator.trans(translationPrefix + 'settings.button_order_heading'),
+              help: app.translator.trans(translationPrefix + 'settings.button_order_text'),
+              placeholder: app.forum.attribute('miniflar-sidenav-download-button.button_order'),
             })}
-            <legend>{app.translator.trans(translationPrefix + 'settings.button_link_heading')}</legend>
-            <div className="helpText">{app.translator.trans(translationPrefix + 'settings.button_link_text')}</div>
+            {this.buildSettingComponent({
+              type: 'switch',
+              setting: 'miniflar-sidenav-download-button.add_separator',
+              label: app.translator.trans(translationPrefix + 'settings.labels.add_separator'),
+            })}
+            {this.buildSettingComponent({
+              type: 'number',
+              setting: 'miniflar-sidenav-download-button.separator_order',
+              label: app.translator.trans(translationPrefix + 'settings.separator_order_heading'),
+              help: app.translator.trans(translationPrefix + 'settings.separator_order_text'),
+              placeholder: app.forum.attribute('miniflar-sidenav-download-button.separator_order'),
+            })}
             {this.buildSettingComponent({
               type: 'url',
               setting: 'miniflar-sidenav-download-button.link',
               placeholder: 'https://example.com',
+              label: app.translator.trans(translationPrefix + 'settings.button_link_heading'),
+              help: app.translator.trans(translationPrefix + 'settings.button_link_text'),
             })}
           </div>
           {this.submitButton()}

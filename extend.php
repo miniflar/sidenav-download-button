@@ -23,13 +23,6 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/resources/less/admin.less'),
 
-    (new Extend\Settings())
-        ->serializeToForum(
-            'miniflar-sidenav-download-button.button_order',
-            'miniflar-sidenav-download-button.button_order',
-            'intval',
-            0
-        ),
     new Extend\Locales(__DIR__.'/resources/locale'),
 
     (new Extend\ApiSerializer(ForumSerializer::class))
@@ -38,6 +31,9 @@ return [
 
             if ($serializer->getActor()->hasPermission('miniflar-sidenav-download-button.viewDownloadButton')) {
                 $attributes['miniflar-sidenav-download-button.link'] = $settings->get('miniflar-sidenav-download-button.link');
+                $attributes['miniflar-sidenav-download-button.button_order'] = (int) $settings->get('miniflar-sidenav-download-button.button_order', 0);
+                $attributes['miniflar-sidenav-download-button.add_separator'] = (bool) $settings->get('miniflar-sidenav-download-button.add_separator', false);
+                $attributes['miniflar-sidenav-download-button.separator_order'] = (int) $settings->get('miniflar-sidenav-download-button.separator_order', 0);
             }
 
             return $attributes;
