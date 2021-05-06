@@ -1,8 +1,5 @@
-# MiniFLAR SideNav Download Button
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/miniflar/sidenav-download-button.svg)](https://packagist.org/packages/miniflar/sidenav-download-button) [![Total Downloads](https://img.shields.io/packagist/dt/miniflar/sidenav-download-button.svg)](https://packagist.org/packages/miniflar/sidenav-download-button) [![PayPal](https://img.shields.io/badge/paypal-ralkage-4cl?style=flat&logo=paypal)](https://paypal.me/ralkage)
-
-A [Flarum](http://flarum.org) extension. Adds a configurable download button to the sideNav of your Flarum forum.
+[![miniFLAR SideNav Download Button](https://extiverse.com/extension/miniflar/sidenav-download-button/open-graph-image)](https://extiverse.com/extension/miniflar/sidenav-download-button)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge) [![Latest Stable Version](https://img.shields.io/packagist/v/miniflar/sidenav-download-button.svg?style=for-the-badge)](https://packagist.org/packages/miniflar/sidenav-download-button) [![PayPal](https://img.shields.io/badge/paypal-ralkage-4cl?style=for-the-badge&logo=paypal)](https://paypal.me/ralkage)
 
 ### Installation
 
