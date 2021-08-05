@@ -4,10 +4,10 @@ import Separator from 'flarum/components/Separator';
 
 app.initializers.add('miniflar/sidenav-download-button', () => {
   extend(IndexPage.prototype, 'sidebarItems', function (items) {
-    const downloadButton = app.forum.attribute('miniflar-sidenav-download-button.link');
+    const downloadButtonLink = app.forum.attribute('miniflar-sidenav-download-button.link');
     const addSeparator = app.forum.attribute('miniflar-sidenav-download-button.add_separator');
 
-    if (downloadButton) {
+    if (downloadButtonLink) {
       if (addSeparator) {
         items.add('separator', Separator.component(), app.forum.attribute('miniflar-sidenav-download-button.separator_order'));
       }
