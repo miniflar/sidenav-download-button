@@ -9,6 +9,11 @@ export default class SettingsPage extends ExtensionPage {
         <fieldset className="sideNavButtonPage fieldset">
           <div className="sideNavButtonPage Form-group">
             {this.buildSettingComponent({
+              type: 'switch',
+              setting: 'miniflar-sidenav-download-button.disable_widget',
+              label: app.translator.trans(translationPrefix + 'settings.labels.disable_widget'),
+            })}
+            {this.buildSettingComponent({
               type: 'number',
               setting: 'miniflar-sidenav-download-button.button_order',
               label: app.translator.trans(translationPrefix + 'settings.button_order_heading'),

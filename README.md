@@ -3,6 +3,8 @@
 
 ### Installation
 
+This will also install [Forum Widgets Core](https://github.com/afrux/forum-widgets-core) as it relies on it now.
+
 Install with composer:
 
 ```sh

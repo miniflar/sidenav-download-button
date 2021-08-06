@@ -34,6 +34,7 @@ return [
                 $attributes['miniflar-sidenav-download-button.button_order'] = (int) $settings->get('miniflar-sidenav-download-button.button_order', 0);
                 $attributes['miniflar-sidenav-download-button.add_separator'] = (bool) $settings->get('miniflar-sidenav-download-button.add_separator', false);
                 $attributes['miniflar-sidenav-download-button.separator_order'] = (int) $settings->get('miniflar-sidenav-download-button.separator_order', 0);
+                $attributes['miniflar-sidenav-download-button.disable_widget'] = (bool) $settings->get('miniflar-sidenav-download-button.disable_widget', false);
             }
 
             return $attributes;
