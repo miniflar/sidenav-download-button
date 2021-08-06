@@ -3,6 +3,9 @@
     "description": "Adds a configurable download button to the sideNav of your Flarum forum.",
     "keywords": [
         "flarum",
+        "afrux",
+        "forum-widgets",
+        "widget",
         "sideNav",
         "download-button",
         "sidenav-download-button"
@@ -13,7 +16,7 @@
         "issues": "https://github.com/miniflar/sidenav-download-button/issues",
         "source": "https://github.com/miniflar/sidenav-download-button",
         "forum": "https://discuss.flarum.org/d/27059"
-      },
+    },
     "funding": [
         {
             "type": "other",
@@ -21,7 +24,8 @@
         }
     ],
     "require": {
-        "flarum/core": "^1.0"
+        "flarum/core": "^1.0",
+        "afrux/forum-widgets-core": "^0.1.0"
     },
     "authors": [
         {
